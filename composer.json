@@ -1,0 +1,34 @@
+{
+    "name": "Laravel-ckeditor",
+    "description": "ckEditor for the Laravel Framework",
+    "license": "MIT",
+    "homepage": "http://farhadnote.ir",
+    "support": {
+        "issues": "https://github.com/LaravelCollective/html/issues",
+        "source": "https://github.com/LaravelCollective/html"
+    },
+    "authors": [
+        {
+            "name": "Farhad Mirzapour",
+            "email": "farhad.mirzapour@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/http": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+			"Farhadnote\\Ckeditor\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+				"Farhadnote\\Ckeditor\\CkeditorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
